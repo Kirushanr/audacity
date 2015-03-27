@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * 2007 - 2014 Vaughan Johnson, Gale Andrews
+ * 2007 - 2015 Vaughan Johnson, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -38,6 +38,52 @@ function most_recent_news_item() {
 
 // Add news items below in reverse-chronological order
 // (most recent first).
+
+add_news_item(
+  "March 27, 2015",
+  	"2.1.0-release",
+  _("Audacity 2.1.0 Released"),
+  _("
+<p>
+<a href=\"/download\">Audacity 2.1.0</a> replaces all previous versions. 
+</p>
+
+<p>
+  <ul>
+    <li>For a long time, we have wanted Real-Time Preview for effects. 
+        It seemed nearly unachievable without major restructuring. 
+        But with Audacity 2.1.0, we have it in 
+        <a href=\"http://manual.audacityteam.org/o/man/real_time_preview_of_effects.html\">
+          LADSPA, VST, and Audio Unit (OS X) effects</a>! 
+        Thanks to Leland Lucius for these great new capabilities!</li>
+
+    <li>Much improved 
+        <a href=\"http://manual.audacityteam.org/o/man/noise_reduction.html\"><b>Noise Reduction</b></a> 
+        effect replaces <b>Noise Removal</b>. Thanks to new contributor Paul Licameli!</li>
+
+    <li>Lots of other improvements to effects, also thanks to Leland, including: 
+      <ul>
+        <li>VST: FXB preset banks, hosting multiple plugins</li>
+        <li>All effects can now be used in Chains, and can be sorted on name, publisher, or class.</li>
+        <li>Most Nyquist effects now have Preview button.</li>
+      </ul>
+    </li>
+
+    <li>Redesigned Meter Toolbars show a lot more information in smaller area. Thanks, Leland Lucius and James Crook!</li>
+    <li><a href=\"http://manual.audacityteam.org/o/man/spectral_selection.html\">Spectral Selection</a> 
+        in Spectrogram view. Thanks to Paul Licameli!</li>
+  </ul>
+</p>
+
+<p>
+Audacity 2.1.0 also has lots of other improvements and bug fixes. 
+Many thanks to all the QA folks for helping hone these, espcially Gale Andrews, Steve Daulton, Peter Sampson, and Bill Wharrie. 
+See the <a href=\"https://code.google.com/p/audacity/source/browse/audacity-src/trunk/README.txt\">2.1.0 README.TXT</a> 
+for all the details. 
+</p>
+
+"));
+
 
 add_news_item(
   "September 29, 2014",

@@ -37,7 +37,7 @@
         <span class="downloads_smaller">
           <br>
           <img src="../images/download_spacer.png">
-          <?=_("(Windows 2000/XP/Vista/Windows 7/Windows 8)")?>
+          <?=_("(Windows 8/7/Vista/XP)")?>
         </span>
       </h3>
 
@@ -52,7 +52,7 @@
         <span class="downloads_smaller">
           <br>
           <img src="../images/download_spacer.png">
-          <?=_("(Universal Binary for Mac OS X 10.4 to 10.9.x)")?>
+          <?=_("(Universal Binary for Mac OS X 10.4 to 10.10.x)")?>
         </span>
       </h3>
 
@@ -92,13 +92,12 @@
   <ul>
     <li><p><?=_("For users of <b>Windows 98 and ME</b>, a legacy 2.0.0 version of Audacity is available on the <a href=\"legacy_windows\">Legacy Windows downloads page")?></a>.</p></li>
     <li><p><?=_("For users of <b>Mac OS 9</b> and <b>Mac OS 10.0 through 10.3</b>, legacy versions of Audacity are available on the <a href=\"legacy_mac\">Legacy Mac downloads page")?></a>.</p></li>
-    <li><p><?=_('<a href="http://sourceforge.net/projects/audacity/files/">All Previous Versions of Audacity</a> (click to enter the required folder under "Name").')?></p></li>
+    <li><p><?=_('<a href="http://sourceforge.net/projects/audacity/files/">all previous versions of Audacity</a>')?></p></li>
   </ul>
 
-  <h3><?=_("Further Information")?></h3>
+  <h3><?=_("More Information")?></h3>
 <ul>
     <li><p><?=_('You can also obtain Audacity as a <a href="buy">CD image file or purchasable CD</a>. Note that these are often not the latest version of Audacity.')?></p></li>
-    <li><p><a href="features-2.0"><?=_("New Features in Audacity 2.0")?></a></p></li>
     <li><p><?=_('To build Audacity yourself, download the <a href="source">source code</a>.')?>
       </p></li>
     <li><p><?=_('You may copy, distribute, modify and/or resell Audacity, under the terms of the  <a href="../about/license">GNU GPL</a>.')?></p></li>
