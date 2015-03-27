@@ -3,7 +3,7 @@
  * index.php for audacity home
  *
  * Copyright 2005 Matt Brubeck
- * 2007 - 14 Vaughan Johnson, Gale Andrews
+ * 2007 - 15 Vaughan Johnson, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -21,19 +21,19 @@
   if ($download == "windows") {
     $download_version = win_exe_version;
     $download_OS = _("for Windows");
-    $download_OS_versions = "2000/XP/Vista/7/8";
+    $download_OS_versions = "8/7/Vista/XP";
     $download_page = "windows";
     $recommended_download = $win_exe_url;
     /*
       $beta_version = beta_version;
-      $beta_download_OS_versions = "2000/XP/Vista/7";
+      $beta_download_OS_versions = "XP/Vista/7";
       $beta_download_page = "beta_windows";
       */
   }
   else if ($download == "mac") {
     $download_version = macosx_version;
     $download_OS = _("for Mac");
-    $download_OS_versions = _("OS X 10.4 to 10.9.x");
+    $download_OS_versions = _("OS X 10.4 to 10.10.x");
     $download_page = "mac";
     $recommended_download = $macosx_url;
     /*
@@ -100,10 +100,10 @@
 <div id="news">
   <?php
     global $news_items;
-    /* Temporarily revert to showing two news item on front page.
-      for ($i = 0; $i < 1; $i++) 
-      */
+    for ($i = 0; $i < 1; $i++) 
+    /* For Audacity 2.1.0 release, show one news item, not two on front page.
     for ($i = 0; $i < 2; $i++)
+      */
     {
         $item = array_shift($news_items);
         $dateStr = $item->dateStr();

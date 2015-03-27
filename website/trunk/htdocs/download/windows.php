@@ -23,21 +23,17 @@
 <ul>
   <li>
     <p>
-      <?php printf(_('<a href="%s">Audacity %s installer</a> (.exe file, %.1lf MB, including help files) for <b>Windows&nbsp;2000/XP/Vista/Windows&nbsp;7/Windows&nbsp;8</b>'), 
+      <?php printf(_('<a href="%s">Audacity %s installer</a> (%.1lf MB, includes help files)'), 
                     download_url($win_exe_url), win_exe_version, win_exe_size)?>
     </p>
   </li>
   <li>
     <p>
-      <?php printf(_('<a href="%s">Audacity %s zip file</a> (%.1lf MB) for <b>Windows&nbsp;2000/XP/Vista/Windows&nbsp;7/Windows&nbsp;8</b> - Use this if you want a smaller download (without help files), or cannot run the installer because of restricted permissions.'),
+      <?php printf(_('<a href="%s">Audacity %s zip file</a> (%.1lf MB) - smaller download (without help files), also useful if you cannot run the installer because of restricted permissions'),
                     download_url($win_zip_url), win_zip_version, win_zip_size)?>
     </p>
   </li>
 </ul>
-
-<p>
-<?php printf(_('<b>Known Issue:</b> On a very few machines, launching Audacity may give a configuration error. This is a Microsoft issue which can be solved by installing the appropriate 32-bit or 64-bit <a href="%s">Microsoft Redistributable Package</a>.'), "http://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#14001")?>
-</p>
 
 <p>
   &nbsp;&nbsp;&nbsp;<a href="#sysreq"><?=_("System Requirements")?></a>
@@ -85,7 +81,7 @@
 </h4>
 <ul>
   <li>
-       <?php printf(_('<a href="%s">SourceForge</a> hosts the current Audacity version and all previous versions. Click on the required folder under "Name" to find the version you require.'), "http://sourceforge.net/project/showfiles.php?group_id=6235")?>
+       <?php printf(_('<a href="%s">SourceForge</a> hosts the current Audacity version and all previous versions. Click on the current version folder to find the version you require.'), "https://sourceforge.net/projects/audacity/files/audacity/")?>
       </li>
       <li>
         <?php printf(_('<a href="%s">Google Code</a> hosts selected previous versions up to and including Audacity 2.0.5.'), "https://code.google.com/p/audacity/downloads/list?can=1")?>
@@ -93,24 +89,18 @@
 </ul>
 
 <h4>
-  <?=_("Audacity Nightly Builds")?>
+  <?=_("Nightly Builds")?>
 </h4>
 <ul>
   <li>
     <p>
-      <?php echo _('<b>For advanced users</b>, <a href="http://wiki.audacityteam.org/index.php?title=Nightly_Builds#Windows_Binaries">Nightly Builds</a> for <b>Windows 2000/XP/Vista/Windows 7/Windows 8</b> are available for testing purposes.')?>
+      <?php echo _('<b>For advanced users</b>, <a href="http://wiki.audacityteam.org/index.php?title=Nightly_Builds#Windows_Binaries">nightly builds</a> are available for testing purposes.')?>
       <?php include "beta_nightly.inc.php"; ?>
     </p>
   </li>
 </ul>
 
-<h3 id="sysreq"><?=_("System Requirements")?></h3>
-<p>
-  <?php printf(_('Read about Audacity on <a href="%s">Windows Vista</a>, <a href="%s">Windows 7</a> and <a href="%s">Windows 8</a>.'), "http://wiki.audacityteam.org/wiki/Windows_Vista_OS", "http://wiki.audacityteam.org/wiki/Windows_7_OS", "http://wiki.audacityteam.org/wiki/Windows_8_OS")?>
-  <?=_("Windows 95 and NT are not supported.")?>
-</p>
-
-<?php include "windows_sys_reqs.inc.php" ?>
+<?php include "windows_sys_reqs.inc.php"; ?>
 
 <?php
   include "../include/footer.inc.php";

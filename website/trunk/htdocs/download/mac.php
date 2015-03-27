@@ -23,12 +23,13 @@
 <ul>
   <li>
     <p>
-      <?php printf(_('<a href="%s">Audacity %s</a> (.dmg file, %.1lf MB, including help files) for <b>OS X 10.4 to 10.9.x</b> (Universal Binary)'), download_url($macosx_url), macosx_version, macosx_size)?>
+      <?php printf(_('<a href="%s">Audacity %s .dmg file</a> (%.1lf MB, includes help files)'), 
+                    download_url($macosx_url), macosx_version, macosx_size)?>
     </p>
   </li>
   <li>
     <p>
-      <?php printf(_('<a href="%s">Audacity %s zip file</a> (%.1lf MB) for <b>OS X 10.4 to 10.9.x</b> (Universal Binary) - Use this if you want a smaller download (without help files).'),
+      <?php printf(_('<a href="%s">Audacity %s zip file</a> (%.1lf MB, smaller, but no help files)'),
                     download_url($macosx_zip_url), macosx_version, macosx_zip_size)?>
     </p>
   </li>
@@ -100,15 +101,17 @@ application in Finder, choose "Open", then in the dialog box that appears, choos
   <?=_("Audacity Nightly Builds")?>
 </h4>
 <ul>
-  <li><p><?php echo _('<b>For advanced users</b>, <a href="http://wiki.audacityteam.org/index.php?title=Nightly_Builds#mac">Nightly Builds</a> for <b>OS X 10.4 to 10.9.x</b> (Universal Binary) are available for testing purposes.')?>
+  <li><p><?php echo _('<b>For advanced users</b>, <a href="http://wiki.audacityteam.org/index.php?title=Nightly_Builds#mac">Nightly Builds</a> are available for testing purposes.')?>
     <?php include "beta_nightly.inc.php"; ?></p></li>
 </ul>
 
 <h3 id="sysreq"><?=_("System Requirements")?></h3>
 <p>
 <div class="advice">
+<b><?=_("Audacity for Mac is released as a Universal Binary. It runs on <b>OS X 10.4 to 10.10.x</b>.")?></b>
+<br>
 <b><?=_("Audacity runs best with at least 1 GB RAM and a 1 GHz processor (2 GB RAM/2 GHz on OS X 10.7 or later).")?></b> 
-<p><?=_("Where Audacity is to be used for lengthy multi-track projects, we recommend a minimum of 2 GB RAM and 2 GHz processor (4 GB RAM on OS X 10.7 or later).")?></p>
+<p><?=_("For lengthy multi-track projects, we recommend a minimum of 2 GB RAM and 2 GHz processor (4 GB RAM on OS X 10.7 or later).")?></p>
 </div>
 </p>
 

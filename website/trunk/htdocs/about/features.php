@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2004 - 14 Matt Brubeck, Gale Andrews
+ * Copyright 2004 - 15 Matt Brubeck, Gale Andrews, Vaughan Johnson
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -10,7 +10,7 @@
   include "../include/header.inc.php";
 
   echo "<h2>$pageTitle</h2>";
-  echo "<p>"._('This is a list of features in Audacity, the free, open source, cross-platform audio editor.  For full information on how to use these features, go to the <a href="../help/">help pages</a>.')."</p>";
+  echo "<p>"._('For more information on these features, see the <a href="../help/">help pages</a>.')."</p>";
 
 /* 
 //Text to be reinstated in Recording section if WDM-KS is reinstated
@@ -19,7 +19,7 @@
   <li>Record at 24-bit depth on Windows (using Windows WDM-KS or Windows WASAPI host), Mac OS X or Linux (using ALSA or JACK  host).
 */  
   echo _('<h3 id="record">Recording</h3>
-<p>Audacity can record live audio through a microphone or mixer, or <a href="http://manual.audacityteam.org/o/man/tutorial_copying_tapes_lps_or_minidiscs_to_cd.html">digitize recordings from cassette tapes, records or minidiscs</a>. With some sound cards, and on any Windows Vista, Windows 7 or Windows 8 machine, Audacity can also capture <a href="http://manual.audacityteam.org/o/man/tutorial_recording_audio_playing_on_the_computer.html">streaming audio</a>.</p>
+<p>Audacity can record live audio through a microphone or mixer, or <a href="http://manual.audacityteam.org/o/man/tutorial_copying_tapes_lps_or_minidiscs_to_cd.html">digitize recordings from other media</a>. With some sound cards, and on any recent version of Windows, Audacity can also capture <a href="http://manual.audacityteam.org/o/man/tutorial_recording_audio_playing_on_the_computer.html">streaming audio</a>.</p>
 <ul>
   <li><a href="http://manual.audacityteam.org/o/man/device_toolbar.html">Device Toolbar</a> manages multiple recording and playback devices.</li>  
   <li><a href="http://manual.audacityteam.org/o/man/meter_toolbar.html">Level meters</a> can monitor volume levels before, during and after recording. <a href="http://manual.audacityteam.org/o/man/glossary.html#clipping">Clipping</a> can be displayed in the waveform or in a label track.</li>
@@ -28,7 +28,7 @@
   <li>Timer Record and Sound Activated Recording features.</li>
   <li>Dub over existing tracks to create <a href="http://manual.audacityteam.org/o/man/faq_recording_how_to_s.html#overdub">multi-track recordings</a>.</li>
   <li>Record at very low <a href="http://manual.audacityteam.org/o/man/glossary.html#latency">latencies</a> on supported devices on Linux by using Audacity  with <a href="http://wiki.audacityteam.org/wiki/Linux_Issues#JACK">JACK</a>.  
-  <li>Record at sample rates up to 192,000 Hz (subject to appropriate hardware and host selection). Up to 384,000 Hz is supported for appropriate high-resolution devices on Mac OS X and Linux.</li> 
+  <li>Record at sample rates up to 192,000 Hz (subject to appropriate hardware and host selection). Up to 384,000 Hz is supported for appropriate high-resolution devices on Windows (using WASAPI), Mac OS X, and Linux.</li> 
   <li>Record at 24-bit depth on Windows (using Windows WASAPI host), Mac OS X or Linux (using ALSA or JACK  host).
   <li>Record <a href="http://wiki.audacityteam.org/wiki/Multichannel_Recording">multiple channels</a> at once (subject to appropriate hardware).</li>
 </ul>');
@@ -38,7 +38,7 @@
 <ul>
   <li>Import and export <b>WAV</b>, <b>AIFF</b>, <b>AU</b>, <b>FLAC</b> and <a href="http://vorbis.com">Ogg Vorbis</a> files.</li>
   <li>Fast "On-Demand" import of WAV or AIFF files (letting you start work with the files almost immediately) if read directly from source.</li>
-  <li>Import and export all formats supported by <a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a> such as <b>GSM 6.10</b>, <b>32-bit and 64-bit float WAV</b> and <b>U/A-Law</b>.</li>
+  <li>Import and export all formats supported by <a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a> such as <b>GSM 6.10</b>, <b>32-bit and 64-bit float WAV</b>, <b>RF64</b>, and <b>U/A-Law</b>.</li>
   <li>Import MPEG audio (including <b>MP2</b> and <b>MP3</b> files) using <a href="http://www.underbit.com/products/mad/">libmad</a>.</li>
   <li>Import raw (headerless) audio files using the "Import Raw" command.</li>
   <li>Create WAV or AIFF files suitable for burning to <a href="http://manual.audacityteam.org/o/man/burning_music_files_to_a_cd.html">audio CD</a>.</li>
