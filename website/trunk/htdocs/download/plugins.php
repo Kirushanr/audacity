@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2004 - 14 Matt Brubeck, Gale Andrews
+ * Copyright 2004 - 15 Matt Brubeck, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -24,13 +24,13 @@
 
 <h3><?=_("LV2 Plug-Ins")?></h3>
 <p>
-  <?php printf(_('Audacity has built-in support for <a href="http://lv2plug.in/">LV2</a> plug-ins, which are an extensible successor of LADSPA effects. LV2 plug-ins are mostly built for Linux, but Audacity supports LV2 on all operating systems. To install LV2 plug-ins, place them in the <a href="%s">system LV2 location</a> then restart Audacity.'), 'http://manual.audacityteam.org/o/man/effect_menu.html#LV2_Effects')?></p>
+  <?php printf(_('Audacity has built-in support for <a href="http://lv2plug.in/">LV2</a> plug-ins, which are an extensible successor of LADSPA effects. LV2 plug-ins are mostly built for Linux, but Audacity supports LV2 on all operating systems. To install LV2 plug-ins, place them in the <a href="%s">system LV2 location</a> then restart Audacity.'), 'http://manual.audacityteam.org/o/man/effect_menu.html#LV2_effects')?></p>
 
 <h3><?=_("Nyquist Plug-Ins")?></h3>
 <p><?=_('Audacity has built-in support for Nyquist effects on all operating systems. You can download additional <a href="nyquistplugins">Nyquist plug-ins</a>, or create your own using the <a href="../help/nyquist">Nyquist programming language</a>. Nyquist code can be tested using "Nyquist Prompt" under the Effect menu, or code for Nyquist plug-ins that generate audio can be quickly tested with <a href="http://audacity.sourceforge.net/nyquist/generate.zip">Nyquist Generate Prompt</a>.')?>
 
 <h3><?=_("VST Plug-Ins")?></h3>
-<p><?=_('On Windows and Mac, Audacity can load VST effects (but not VST instruments). The VST Enabler is no longer required.  Enable "Rescan VST effects" in the Effects Preferences and restart Audacity when you want to add new effects. See <a href="http://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#vst_install">"How do I install VST plug-ins?"</a> for more information.')?></p>
+<p><?=_('Audacity can load VST effects (but not VST instruments) on all operating systems. The VST Enabler is no longer required.  Enable "Rescan VST effects" in the Effects Preferences and restart Audacity when you want to add new effects. See <a href="http://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#vst_install">"How do I install VST plug-ins?"</a> for more information.')?></p>
 
 <p><?=_('VST effects can be found on many plug-in sites such as:')?></p>
 <ul>
@@ -42,12 +42,12 @@
 <p><?=_('The <a href="http://wiki.audacityteam.org/wiki/VST_Plug-ins">VST Plug-ins</a> page on the <a href="http://wiki.audacityteam.org/">Audacity Wiki<a/> contains further help for VST plug-ins, and lists a large number of VST plug-ins that have been reported to work well in Audacity.')?></p>
 
 <h3><?=_("Audio Unit Plug-Ins")?></h3>
-<p><?=_('On Mac OS X only, Audacity loads <a href="http://manual.audacityteam.org/help/manual/man/effect_menu.html#audio_unit">Audio Unit</a> plug-ins automatically from system plug-in directories. Audacity will not recognize any Audio Units in its own "plug-ins" folder.')?></p>  
+<p><?=_('On Mac OS X only, Audacity loads <a href="http://manual.audacityteam.org/o/man/effect_menu.html#Audio_Unit_effects">Audio Unit</a> plug-ins from system plug-in directories. Audacity will not recognize any Audio Units in its own "plug-ins" folder.')?></p>  
 
 <h3><?=_("Libraries")?></h3>
 <p><?=_('The <b>LAME MP3 encoding</b> library allows Audacity to export audio in the popular <a href="http://wiki.audacityteam.org/index.php?title=MP3">MP3</a> format. To install the LAME library, please read our <a href="http://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#lame">LAME FAQ</a>.')?></p>    
 
-<p><?=_('The <b>FFmpeg import/export</b> library allows Audacity to import and export many additional audio formats such as AC3, AMR(NB), M4A and WMA, and to import audio from video files. Audacity 2.0.6 and later requires FFmpeg 1.2 or later (or libav 0.8 or later). To install FFmpeg, please read our <a href="http://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#ffdown">FFmpeg FAQ</a>.')?></p>
+<p><?=_('The <b>FFmpeg import/export</b> library allows Audacity to import and export many additional audio formats such as AC3, AMR(NB), M4A and WMA, and to import audio from video files. Audacity 2.0.6 and later requires FFmpeg 1.2 to 2.3.x (or libav 0.8 to 0.10.x). To install FFmpeg, please read our <a href="http://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#ffdown">FFmpeg FAQ</a>.')?></p>
 
 <?php
   include "../include/footer.inc.php";
