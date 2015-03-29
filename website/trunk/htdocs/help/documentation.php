@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2004 - 2014 Matt Brubeck, Gale Andrews
+ * Copyright 2004 - 2015 Matt Brubeck, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -22,7 +22,7 @@
 
 <h3><?=_('Audacity Manuals (with Tutorials)')?></h3>
 
-<p><?=_('The <a href="/download/windows">Windows .exe</a> and <a href="/download/mac">Mac OS X .dmg</a> installers already include a built-in copy of the Manual. To access it, click <b>Help > Manual (in web browser)</b> in the Audacity program.')?></p>
+<p><?=_('The <a href="/download/windows">Windows .exe</a> and <a href="/download/mac">Mac OS X .dmg</a> installers already include a built-in copy of the Manual. To access it, click <b>Help > Manual</b> in the Audacity program.')?></p>
 
 <p>
 <ul>

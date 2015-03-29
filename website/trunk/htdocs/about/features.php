@@ -74,10 +74,12 @@
 
   echo _('<h3 id="effects">Effects</h3>
 <ul>
+  <li><a href="http://manual.audacityteam.org/o/man/real_time_preview_of_effects.html">Real-time preview</a> of LADSPA, VST and Audio Unit (OS X) effects. 
   <li>Change the pitch without altering the tempo (or vice-versa).</li>
   <li>Remove static, hiss, hum or other constant background noises.</li>
   <li>Alter frequencies with Equalization, Bass and Treble, High/Low Pass and Notch Filter effects.</li>
-  <li>Adjust volume with Compressor, Amplify, Normalize, Fade In/Fade Out and Adjustable Fade effects.
+  <li>Filter a <a href="http://manual.audacityteam.org/o/man/spectral_selection.html">frequency selection</a> made in Spectrogram views or <a href="http://manual.audacityteam.org/o/man/spectral_selection_toolbar.html">Spectral Selection Toolbar</a> using spectral edit effects.</li>   
+  <li>Adjust volume with Compressor, Amplify, Normalize, Fade In/Fade Out, Crossfade, and Adjustable Fade effects.
   <li><a href="http://manual.audacityteam.org/help/manual/man/vocal_remover.html">Remove Vocals</a> from suitable stereo tracks.
   <li>Create voice-overs for podcasts or DJ sets using <a href="http://manual.audacityteam.org/help/manual/man/auto_duck.html">Auto Duck</a> effect.
   <li>Other built-in effects include:
@@ -95,16 +97,16 @@
 
   echo _('<h3><a href="../download/plugins">Plug-ins</a></h3>
 <ul>
-  <li>Support for <a href="http://www.ladspa.org/">LADSPA</a>, <a href="http://lv2plug.in/">LV2</a>, <a href="http://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins">Nyquist</a>, <a href="http://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#vst_install">VST</a> and <a href="http://manual.audacityteam.org/o/man/effect_menu.html#Audio_Unit_Effects">Audio Unit</a> effect plug-ins.</li>
+  <li>Support for <a href="http://www.ladspa.org/">LADSPA</a>, <a href="http://lv2plug.in/">LV2</a>, <a href="http://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins">Nyquist</a>, <a href="http://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#vst_install">VST</a> and <a href="http://manual.audacityteam.org/o/man/effect_menu.html#Audio_Unit_effects">Audio Unit</a> effect plug-ins.</li>
   <li>Effects written in the <a href="../help/nyquist">Nyquist programming language</a> can be easily modified in a text editor - or you can even write your own plug-in.</li>
 </ul>');
 
   echo _('<h3>Analysis</h3>
 <ul>
-  <li>Spectrogram view modes for visualizing frequencies.</li>
-  <li>"Plot Spectrum" command for detailed frequency analysis.</li>
+  <li>Spectrogram view modes for visualizing and selecting frequencies.</li>
+  <li>"Plot Spectrum" window for detailed frequency analysis.</li>
   <li>"Sample Data Export" for exporting a file containing amplitude values for each sample in the selection.</li> 
-  <li>Contrast Analysis for analyzing average rms volume differences between foreground speech and background music.</li>
+  <li>Contrast Analysis for analyzing average RMS volume differences between foreground speech and background music.</li>
   <li>Support for adding <a href="http://manual.audacityteam.org/help/manual/man/analyze_menu.html#vamp">VAMP</a> analysis plug-ins.</a>
 </ul>');
 
