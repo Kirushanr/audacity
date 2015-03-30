@@ -1,0 +1,148 @@
+/**********************************************************************
+
+  Audacity: A Digital Audio Editor
+
+  ChangeSpeed.h
+
+  Vaughan Johnson, Dominic Mazzoni
+
+  Change Speed effect, that affects both pitch & tempo.
+
+**********************************************************************/
+
+#ifndef __AUDACITY_EFFECT_CHANGESPEED__
+#define __AUDACITY_EFFECT_CHANGESPEED__
+
+#include "Effect.h"
+#include "../Resample.h"
+
+#include <wx/choice.h>
+#include <wx/dialog.h>
+#include <wx/intl.h>
+#include <wx/slider.h>
+#include <wx/string.h>
+#include <wx/textctrl.h>
+#include "../widgets/NumericTextCtrl.h"
+
+class EffectChangeSpeed : public Effect
+{
+ public:
+   EffectChangeSpeed();
+
+   virtual wxString GetEffectName() {
+      return wxString(wxTRANSLATE("Change Speed..."));
+   }
+
+   virtual std::set<wxString> GetEffectCategories() {
+      std::set<wxString> result;
+      result.insert(wxT("http://audacityteam.org/namespace#PitchAndTempo"));
+      return result;
+   }
+
+   virtual wxString GetEffectIdentifier() {
+      return wxString(wxT("Change Speed"));
+   }
+
+   virtual wxString GetEffectAction() {
+      return wxString(_("Changing Speed"));
+   }
+
+   // Useful only after PromptUser values have been set.
+   virtual wxString GetEffectDescription();
+
+   double CalcPreviewInputLength(double previewLength);
+
+ protected:
+   virtual bool Init();
+   virtual bool PromptUser();
+
+   virtual bool CheckWhetherSkipEffect() { return (m_PercentChange == 0.0); }
+   virtual bool Process();
+
+ private:
+   bool ProcessOne(WaveTrack * t, sampleCount start, sampleCount end);
+   bool ProcessLabelTrack(Track *t);
+
+ private:
+   // track related
+   int    mCurTrackNum;
+   double mMaxNewLength;
+   double mCurT0;
+   double mCurT1;
+
+   // control values
+   double   m_PercentChange;  // percent change to apply to tempo
+                              // -100% is meaningless, but sky's the upper limit.
+                              // Slider is (-100, 200], but textCtrls can set higher.
+   int      mFromVinyl;       // from standard vinyl speed (RPM) enum
+   double   mFactor;          // scale factor calculated from percent change
+   double   mFromLength;      // current selection length
+   int      mTimeCtrlFormat;  // time control format index number
+
+friend class ChangeSpeedDialog;
+};
+
+
+class ChangeSpeedDialog : public EffectDialog
+{
+ public:
+   ChangeSpeedDialog(EffectChangeSpeed * effect,
+                     wxWindow * parent);
+
+   void PopulateOrExchange(ShuttleGui& S);
+   bool TransferDataToWindow();
+   bool Validate();
+
+ private:
+   // handlers
+   void OnText_PercentChange(wxCommandEvent & event);
+   void OnText_Multiplier(wxCommandEvent & event);
+   void OnSlider_PercentChange(wxCommandEvent & event);
+   void OnChoice_Vinyl(wxCommandEvent & event);
+   void OnTimeCtrl_ToLength(wxCommandEvent & event);
+   void OnTimeCtrlUpdate(wxCommandEvent & event);
+
+   void OnPreview(wxCommandEvent &event);
+
+   // helper functions
+   void Update_Text_PercentChange();   // Update control per current m_PercentChange.
+   void Update_Text_Multiplier();      // Update control per current m_PercentChange.
+   void Update_Slider_PercentChange(); // Update control per current m_PercentChange.
+   void Update_Vinyl();                // Update Vinyl controls for new percent change.
+   void Update_TimeCtrl_ToLength();    // Update target length controls for new percent change.
+   void UpdateUI();                    // Enable / disable OK / preview.
+
+ private:
+   EffectChangeSpeed * mEffect;
+   bool mbLoopDetect;
+
+   // controls
+   wxTextCtrl *      mpTextCtrl_PercentChange;
+   wxTextCtrl *      mpTextCtrl_Multiplier;
+   wxSlider *        mpSlider_PercentChange;
+   wxChoice *        mpChoice_FromVinyl;
+   wxChoice *        mpChoice_ToVinyl;
+   NumericTextCtrl * mpFromLengthCtrl;
+   NumericTextCtrl * mpToLengthCtrl;
+   double mRate;
+
+   // private effect parameters
+   int      mToVinyl;         // to standard vinyl speed (rpm)
+   double   mToLength;        // target length of selection
+   wxString mFormat;          // time control format
+
+ public:
+   // effect parameters
+   double   m_PercentChange;  // percent change to apply to tempo
+                              // -100% is meaningless, but sky's the upper limit.
+                              // Slider is (-100, 200], but textCtrls can set higher.
+   int      mFromVinyl;       // from standard vinyl speed (rpm)
+   double   mFromLength;      // current selection length
+   int      mTimeCtrlFormat;  // time control format index
+
+ private:
+   DECLARE_EVENT_TABLE()
+};
+
+
+#endif // __AUDACITY_EFFECT_CHANGESPEED__
