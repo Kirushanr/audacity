@@ -40,7 +40,7 @@ function most_recent_news_item() {
 // (most recent first).
 
 add_news_item(
-  "March 27, 2015",
+  "March 29, 2015",
   	"2.1.0-release",
   _("Audacity 2.1.0 Released"),
   _("
