@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2003 Dominic Mazzoni
- * Copyright 2004-14 Matt Brubeck, Vaughan Johnson
+ * Copyright 2004-15 Matt Brubeck, Vaughan Johnson
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -12,23 +12,23 @@
 ?>
 
 <h2><?=$pageTitle?></h2>
-<p><?=_("These are some of the people who have <a href=\"../community/\">contributed</a> to the free Audacity audio editor.</p>  
-</p>If you have questions or feedback about Audacity, please see the <a href=\"../contact/\">contact page</a>.")?></p>
+<p><?=_("These are people who have <a href=\"../community/\">contributed</a> to Audacity.</p>  
+</p>If you have questions or feedback, please see the <a href=\"../contact/\">contact page</a>.")?></p>
 
 <h3><?=_("History")?></h3>
 
 <p><?=_("Audacity was started by Dominic Mazzoni and Roger Dannenberg in the fall of 1999 at Carnegie Mellon University.  It was released as open-source software at SourceForge.net in May of 2000.")?></p>
 
-<p><?=_('<a href="https://www.openhub.net/p/audacity">Open HUB</a> (formerly known as "Ohloh") has statistics on the value of Audacity development. The Open HUB &quot;badge&quot; at the bottom of each page on this site shows updated summary values. The statistics are set up by us to show only the values of Audacity-specific development, excluding the third-party code libraries Audacity uses. The <a href="https://www.openhub.net/p/audacity/contributors">Contributors page</a> on the Open HUB site shows the contributions of each developer.')?></p>
+<p><?=_('<a href="https://www.openhub.net/p/audacity">Open HUB</a> has statistics on the value of Audacity development. The Open HUB &quot;badge&quot; at the bottom of each page on this site shows updated summary values. The statistics are set up by us to show only the values of Audacity-specific development, excluding the third-party code libraries Audacity uses. The <a href="https://www.openhub.net/p/audacity/contributors">Contributors page on Open HUB</a shows the contributions of each developer.')?></p>
 
-<h3><?=_("Audacity Team Members")?></h3>
+<h3><?=_("Team Members")?></h3>
 <ul>
   <li>Gale Andrews, <?=_("quality assurance")?></li>
   <li>Richard Ash, <?=_("developer")?></li>
   <li>Christian Brochec, <?=_("documentation and support")?>, <?=_("French")?></li>
   <li>Arturo "Buanzo" Busleiman, <?=_("system administration")?></li>
   <li>James Crook, <?=_("developer")?></li>
-  <li><a href="http://www.cs.cmu.edu/~rbd">Roger Dannenberg</a>, <?=_("developer and co-founder of Audacity")?></li>
+  <li><a href="http://www.cs.cmu.edu/~rbd">Roger Dannenberg</a>, <?=_("co-founder and developer")?></li>
   <li>Steve Daulton, <?=_("documentation and support")?></li>
   <li>Benjamin Drung, <?=_("developer")?></li>
   <li>Vaughan Johnson, <?=_("developer")?></li>
@@ -53,7 +53,7 @@
   <li>Al Dimond, <?=_("developer")?></li>
   <li><a href="http://www.reverberate.org/">Joshua Haberman</a>, <?=_("developer")?></li>
   <li>Ruslan Ijbulatov, <?=_("developer")?></li>
-  <li><a href="http://dominic-mazzoni.com/">Dominic Mazzoni</a>, <?=_("developer and co-founder of Audacity")?></li>
+  <li><a href="http://dominic-mazzoni.com/">Dominic Mazzoni</a>, <?=_("co-founder and developer")?></li>
   <li>Markus Meyer, <?=_("developer")?></li>
   <li>Monty Montgomery, <?=_("developer")?></li>
   <li>Shane Mueller, <?=_("developer")?></li>
