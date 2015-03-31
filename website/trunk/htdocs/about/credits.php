@@ -33,6 +33,7 @@
   <li>Benjamin Drung, <?=_("developer")?></li>
   <li>Vaughan Johnson, <?=_("developer")?></li>
   <li>Greg Kozikowski, <?=_("documentation and support")?></li>
+  <li>Paul Licameli, <?=_("developer")?></li>
   <li>Leland Lucius, <?=_("developer")?></li>
   <li>Peter Sampson, <?=_("documentation and support")?></li>
   <li>Martyn Shaw, <?=_("developer")?></li>
