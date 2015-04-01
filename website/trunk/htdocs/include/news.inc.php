@@ -78,8 +78,8 @@ add_news_item(
 <p>
 Audacity 2.1.0 also has lots of other improvements and bug fixes. 
 Many thanks to all the QA folks for helping hone these, especially Gale Andrews, Steve Daulton, Peter Sampson, and Bill Wharrie. 
-See the <a href=\"http://wiki.audacityteam.org/wiki/Release_Notes_2.1.0\">2.1.0 README.TXT</a> 
-for all the details. 
+See the <a href=\"http://wiki.audacityteam.org/wiki/Release_Notes_2.1.0\">2.1.0 Release Notes</a> 
+for details. 
 </p>
 
 "));
