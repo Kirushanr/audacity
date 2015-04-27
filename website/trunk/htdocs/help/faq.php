@@ -21,7 +21,7 @@ printf(_('Frequently Asked Questions (FAQ) in English for the current <a href="/
 echo "</b></p>";
 echo "<p><ul>"; 
 echo "<li><a href=\"http://manual.audacityteam.org/o/man/faq.html\">"._('View the FAQ in the online Manual')."</a>.</li>";
-echo "<li>"._('In Audacity, click Help > Manual (in web browser), then the "FAQ" link in the "Navigation" box on the left. The Manual is included with the <a href="http://audacity.sourceforge.net/download/windows">Windows .exe</a> or <a href="http://audacity.sourceforge.net/download/mac">Mac OS X .dmg</a> Audacity installers.')."</li></ul></p>";
+echo "<li>"._('In Audacity, click Help > Manual (in web browser), then the "FAQ" link in the "Navigation" box on the left. The Manual is included with the <a href="http://audacityteam.org/download/windows">Windows .exe</a> or <a href="http://audacityteam.org/download/mac">Mac OS X .dmg</a> Audacity installers.')."</li></ul></p>";
 echo "</div>";
 
 echo "<h3>"._('Other languages')."</h3>";

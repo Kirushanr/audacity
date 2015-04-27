@@ -267,7 +267,7 @@ msgstr "我可以在某個音軌正在錄音時播放它嗎？"
 #: help/faq.php:164
 msgid "<p>This is called multi-track recording.  It makes it possible to record harmonies with yourself, or add new instruments or vocals to an existing recording.  To do this in Audacity, follow these instructions:</p>\n"
 "<ol>\n"
-"  <li>Select the correct recording input that you are plugged into (probably microphone or line-in). On <b>Windows or Linux</b>, select the input in the dropdown menu in Audacity's <a href=\"http://audacity.sourceforge.net/onlinehelp-1.2/toolbar_mixer.htm\">Mixer Toolbar</a> (on Windows Vista, use the \"Recording Device\" menu in the Audio I/O tab of Preferences instead). On <b>OS X</b>, Mixer Toolbar may only show \"Default Input\". If so, select the source on the Audio Devices tab of Apple Audio MIDI Setup.</li>\n"
+"  <li>Select the correct recording input that you are plugged into (probably microphone or line-in). On <b>Windows or Linux</b>, select the input in the dropdown menu in Audacity's <a href=\"http://audacityteam.org/onlinehelp-1.2/toolbar_mixer.htm\">Mixer Toolbar</a> (on Windows Vista, use the \"Recording Device\" menu in the Audio I/O tab of Preferences instead). On <b>OS X</b>, Mixer Toolbar may only show \"Default Input\". If so, select the source on the Audio Devices tab of Apple Audio MIDI Setup.</li>\n"
 "  <li>Import or record the first track.</li>\n"
 "  <li>Open the \"Audio I/O\" tab of Audacity preferences, and check the box labeled <b>Play other tracks while recording new one.</b></li>\n"
 "  <li>Close the preferences and press the <b>Record</b> button. If you are recording from a microphone, make sure you use headphones so that the microphone picks up only what you are recording.</li>\n"
@@ -1760,7 +1760,7 @@ msgstr "<h3>編輯</h3>\n"
 "  <li>提供無限的復原(及重做)操作，可復原任意步驟。</li>\n"
 "  <li>快速地編輯大檔案。</li>\n"
 "  <li>編輯和混合不限個數的音軌。</li>\n"
-"  <li>使用拖拉工具改變單一取樣點。</li>\n"
+"  <li>使用拖���工具改變單一取樣點。</li>\n"
 "  <li>使用波封工具平滑地調整音量的淡入或淡出。</li>\n"
 "</ul>"
 
@@ -1969,13 +1969,13 @@ msgid "<h4 >Legal Requirements</h4>\n"
 "<p>You <b>must</b> include the following to comply with version 2 or later of the <a href=\"http://www.gnu.org/licenses/licenses.html#GPL\">GPL</a>:\n"
 "  <ol>\n"
 "    <li>a verbatim copy of the <a href=\"http://www.gnu.org/licenses/licenses.html#GPL\">GPL</a> and </li>\n"
-"    <li>the <a href=\"http://audacity.sourceforge.net/download/source\">Audacity source code</a> (or if you are distributing a modified version of Audacity, that modified code). Failing that, you must include a written offer to supply the code.</li>\n"
+"    <li>the <a href=\"http://audacityteam.org/download/source\">Audacity source code</a> (or if you are distributing a modified version of Audacity, that modified code). Failing that, you must include a written offer to supply the code.</li>\n"
 "  </ol>\n"
 "</p>"
 msgstr ""
 
 #: about/license.php:66 htdocs/about/license.php:66
-msgid "<p>If you distribute our <a href=\"http://audacity.sourceforge.net/download/\">installers</a> and do not modify them, this will fully comply, because the installers include the <a href=\"http://www.gnu.org/licenses/licenses.html#GPL\">GPL</a> and an offer in README.txt for users to obtain the source code from us. Versions of Audacity after 1.3.3 also include the GPL in the application itself, in the About Audacity dialog.</p>"
+msgid "<p>If you distribute our <a href=\"http://audacityteam.org/download/\">installers</a> and do not modify them, this will fully comply, because the installers include the <a href=\"http://www.gnu.org/licenses/licenses.html#GPL\">GPL</a> and an offer in README.txt for users to obtain the source code from us. Versions of Audacity after 1.3.3 also include the GPL in the application itself, in the About Audacity dialog.</p>"
 msgstr ""
 
 #: about/license.php:68 htdocs/about/license.php:68
@@ -1985,11 +1985,11 @@ msgstr ""
 #: about/license.php:70 htdocs/about/license.php:70
 msgid "<h4 >Updating and Documenting Audacity</h4>\n"
 "\n"
-"<p>We would appreciate your linking to our web site: <a href=\"http://audacity.sourceforge.net\">http://audacity.sourceforge.net</a> so your users can download updated versions of Audacity when released. Also, please subscribe to the notifications list at the bottom of <a href=\"http://audacity.sourceforge.net\">http://audacity.sourceforge.net</a> to ensure you receive advice of and can distribute the latest version of Audacity.</p>"
+"<p>We would appreciate your linking to our web site: <a href=\"http://audacityteam.org\">http://audacityteam.org</a> so your users can download updated versions of Audacity when released. Also, please subscribe to the notifications list at the bottom of <a href=\"http://audacityteam.org\">http://audacityteam.org</a> to ensure you receive advice of and can distribute the latest version of Audacity.</p>"
 msgstr ""
 
 #: about/license.php:74 htdocs/about/license.php:74
-msgid "<p>If possible, please include the <a href=\"http://audacity.sourceforge.net/help/documentation\">Audacity documentation</a> with your distribution, to reduce the number of queries we receive. "
+msgid "<p>If possible, please include the <a href=\"http://audacityteam.org/help/documentation\">Audacity documentation</a> with your distribution, to reduce the number of queries we receive. "
 msgstr ""
 
 #: about/license.php:77 htdocs/about/license.php:77
@@ -2022,7 +2022,7 @@ msgstr ""
 
 #: about/license.php:100 htdocs/about/license.php:100
 msgid "<li>Please test your device with Audacity thoroughly. If there are any specific configuration instructions needed to make your device work with Audacity, please ensure these are included with the device.</li>\n"
-"        <li>Please note that we cannot help your customers with problems specific to your device - these must be dealt with by your own qualified staff. Users needing support with Audacity itself can find assistance at <a href=\"http://audacity.sourceforge.net/contact/\">http://audacity.sourceforge.net/contact/</a>.</li>\n"
+"        <li>Please note that we cannot help your customers with problems specific to your device - these must be dealt with by your own qualified staff. Users needing support with Audacity itself can find assistance at <a href=\"http://audacityteam.org/contact/\">http://audacityteam.org/contact/</a>.</li>\n"
 "  </ol>\n"
 "</p>"
 msgstr ""
@@ -2107,11 +2107,11 @@ msgstr "Audacity開發團隊將持續資助本專案。\n"
 msgid "These are all things that help us provide Audacity for free and continue to make it better. \n"
 "  The Audacity Team is completely committed to keeping Audacity free and open source.\n"
 "  We made that commitment in\n"
-"  <a href=\"http://audacity.sourceforge.net/about/license\">\n"
+"  <a href=\"http://audacityteam.org/about/license\">\n"
 "      licensing Audacity under the GNU General Public License</a>."
 msgstr "感謝各位幫助我們以自由的方式提供Audacity，並讓它更好。\n"
 "Audacity小組承諾持續維持Audacity免費及開放源碼。\n"
-"我們依據<a href=\"http://audacity.sourceforge.net/about/license\">GNU通用公共許可證</a>之下來發行Audacity\n"
+"我們依據<a href=\"http://audacityteam.org/about/license\">GNU通用公共許可證</a>之下來發行Audacity\n"
 "以確保我們的承諾。"
 
 #: community/donate.php:59 htdocs/community/donate.php:59
@@ -2487,7 +2487,7 @@ msgid "LADSPA Plug-Ins"
 msgstr "LADSPA外掛程式"
 
 #: htdocs/download/plugins.php:17 download/plugins.php:17
-msgid "Audacity has built-in support for LADSPA plug-ins.  These plug-ins are mostly built for Linux, but some are available for other operating systems too.  Audacity includes some sample LADSPA effects. Windows users can install an additional <a href=\"http://audacity.sourceforge.net/beta/ladspa/ladspa-0.4.15.exe\">set of over 90 LADSPA plug-ins</a>. There is a similar set of LADSPA plug-ins for <a href=\"http://ardour.org/files/releases/swh-plugins-0.4.15.dmg\">Mac</a>. More information and many LADSPA plug-ins for Linux can be found on the <a href=\"http://www.ladspa.org/\">LADSPA web site</a>."
+msgid "Audacity has built-in support for LADSPA plug-ins.  These plug-ins are mostly built for Linux, but some are available for other operating systems too.  Audacity includes some sample LADSPA effects. Windows users can install an additional <a href=\"http://audacityteam.org/beta/ladspa/ladspa-0.4.15.exe\">set of over 90 LADSPA plug-ins</a>. There is a similar set of LADSPA plug-ins for <a href=\"http://ardour.org/files/releases/swh-plugins-0.4.15.dmg\">Mac</a>. More information and many LADSPA plug-ins for Linux can be found on the <a href=\"http://www.ladspa.org/\">LADSPA web site</a>."
 msgstr ""
 
 #: download/plugins.php:19
@@ -2495,7 +2495,7 @@ msgid "Nyquist Plug-Ins"
 msgstr "Nyquist外掛程式"
 
 #: htdocs/download/plugins.php:20 download/plugins.php:20
-msgid "Audacity has built-in support for Nyquist effects on all operating systems. You can download additional <a href=\"nyquistplugins\">Nyquist plug-ins</a>, or create your own using the <a href=\"../help/nyquist\">Nyquist programming language</a>. Nyquist code can be tested using \"Nyquist Prompt\" under the Effect menu, or code for Nyquist plug-ins that generate audio can be quickly tested with <a href=\"http://audacity.sourceforge.net/nyquist/generate.zip\">Nyquist Generate Prompt</a>."
+msgid "Audacity has built-in support for Nyquist effects on all operating systems. You can download additional <a href=\"nyquistplugins\">Nyquist plug-ins</a>, or create your own using the <a href=\"../help/nyquist\">Nyquist programming language</a>. Nyquist code can be tested using \"Nyquist Prompt\" under the Effect menu, or code for Nyquist plug-ins that generate audio can be quickly tested with <a href=\"http://audacityteam.org/nyquist/generate.zip\">Nyquist Generate Prompt</a>."
 msgstr ""
 
 #: download/plugins.php:22
@@ -2990,7 +2990,7 @@ msgstr "首先，點一下您想要移動的工具列左邊的拖曳列不要放
 
 #: download/features-1.3-h.php:27
 msgid "Drag the toolbar away from its original location.<br>If you release the mouse here, it will become a floating toolbar."
-msgstr "把工具列從原來的位置上移動。<br>如果您在某個位置放開滑鼠按鍵，工具列就變成浮動的。"
+msgstr "把工具列從原來的位置上移動。<br>如果您在某個位置放開滑鼠按鍵，工具列就變成浮動的���"
 
 #: download/features-1.3-h.php:33
 msgid "While dragging, position the mouse near an edge or between two other toolbars,<br>and a blue triangle appears, indicating a possible location you can dock the toolbar."
@@ -4594,7 +4594,7 @@ msgid "\n"
 "</p>\n"
 "<p>\n"
 "If you know any students who might be interested, possibly those already involved in music/audio\n"
-"research, please point them to our <a href=\"http://audacity.sourceforge.net/\">website</a> for this information.\n"
+"research, please point them to our <a href=\"http://audacityteam.org/\">website</a> for this information.\n"
 "</p>\n"
 msgstr ""
 
@@ -4627,7 +4627,7 @@ msgid "\n"
 "</p>\n"
 "<p>\n"
 "If you know any students who might be interested, possibly those already involved in music/audio\n"
-"research, please point them to our <a href=\"http://audacity.sourceforge.net/\">website</a> for this information.\n"
+"research, please point them to our <a href=\"http://audacityteam.org/\">website</a> for this information.\n"
 "</p>\n"
 msgstr ""
 
@@ -5026,7 +5026,7 @@ msgid "\n"
 "\t\t  <img src=\"../images/Audacity Store_banner_50pct.jpg\" alt=\"Audacity Store\"></img>\n"
 "\t\t</a>\n"
 "\t</p>\n"
-"\t<p><a href=\"http://audacity.sourceforge.net/community/donate\">Learn more about how Audacity raises money...\n"
+"\t<p><a href=\"http://audacityteam.org/community/donate\">Learn more about how Audacity raises money...\n"
 "\t\t</a>\n"
 "\t</p>\n"
 "\t<h3>New Releases on the Way</h3>\n"
@@ -5065,7 +5065,7 @@ msgstr "\n"
 "\t\t  <img src=\"../images/Audacity Store_banner_50pct.jpg\" alt=\"Audacity Store\"></img>\n"
 "\t\t</a>\n"
 "\t</p>\n"
-"\t<p><a href=\"http://audacity.sourceforge.net/community/donate\">更多Audacity資金來源的說明…\n"
+"\t<p><a href=\"http://audacityteam.org/community/donate\">更多Audacity資金來源的說明…\n"
 "\t\t</a>\n"
 "\t</p>\n"
 "\t<h3>即將發行</h3>\n"

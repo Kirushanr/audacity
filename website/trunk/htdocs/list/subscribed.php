@@ -22,7 +22,7 @@ and click "Remove".
 </p>
 
 <p>
-<a href="http://audacity.sourceforge.net/">Click here to return to the Audacity home page</a>
+<a href="http://audacityteam.org/">Click here to return to the Audacity home page</a>
 </p>
 
 <?php

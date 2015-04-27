@@ -396,7 +396,7 @@ to receive news of future releases.
 </div>
 </p>
 <p>Please see 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 Changes in Audacity 1.3.14</a> for more on 1.3.14 and the Beta series.
 </p>
 "));
@@ -413,12 +413,12 @@ The Audacity Team is pleased to announce the release of
 Mac and Linux/Unix. This version now fully supports <b>Windows 7</b> 
 and contains many bug fixes plus a few new features. Please also obtain this 
 version for <b>Windows Vista</b> and <b>Mac OS X 10.6</b> rather than Audacity 1.2.</p>
-<p>Please give us your <a href=\"http://audacity.sourceforge.net/contact/#feedback\">
+<p>Please give us your <a href=\"http://audacityteam.org/contact/#feedback\">
 feedback</a> on 1.3.13 and our 
 <a href=\"http://audacityteam.org/wiki/index.php?title=Nightly_Builds\">
 Nightly Builds</a> to help us progress as rapidly as possible 
 towards a new Audacity 2.0 stable version. Please
-<a href=\"http://audacity.sourceforge.net/#announce\">
+<a href=\"http://audacityteam.org/#announce\">
 subscribe</a> to receive news of the next 1.3.14 Beta and all our future releases.    
 </p>
 <p>
@@ -469,7 +469,7 @@ subscribe</a> to receive news of the next 1.3.14 Beta and all our future release
 </div>
 </p>
 <p>Please see 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 Changes in Audacity 1.3.13</a> for more on 1.3.13 and the Beta series.
 </p>
 <p>
@@ -495,13 +495,13 @@ improvements, especially for dragging and synchronization of labels.
 <p> We continue to recommend the ongoing Beta series for <b>Windows 7</b>,
 <b>Windows Vista</b> and <b>Mac OS X 10.6</b>, rather than 1.2. Please help 
 us test 1.3.12 and 
-<a href=\"http://audacity.sourceforge.net/contact/#feedback\">
+<a href=\"http://audacityteam.org/contact/#feedback\">
 let us know</a> of any problems you find. Advanced users are 
 encouraged to test our subsequent changes as we make them by 
 downloading our 
 <a href=\"http://audacityteam.org/wiki/index.php?title=Nightly_Builds\">
 Nightly Builds</a>. Please
-<a href=\"http://audacity.sourceforge.net/#announce\">
+<a href=\"http://audacityteam.org/#announce\">
 subscribe</a> to receive news of all our future releases.    
 </p>
 <p>
@@ -542,7 +542,7 @@ subscribe</a> to receive news of all our future releases.
 </div>
 </p>
 <p>Please see 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 Changes in Audacity 1.3.12</a> for more on 1.3.12 and the Beta series. <b>Note:</b> 
 This release supports Windows 98/ME, and we recommend users on those systems
 to upgrade from the previous 1.3.7 release.  
@@ -551,7 +551,7 @@ to upgrade from the previous 1.3.7 release.
 <b>Also this month:</b> 
 <a href=\"https://www.packtpub.com/about\">PACKT Publishing</a> release a new book  
 about Audacity 
-<a href=\"https://www.packtpub.com/getting-started-with-audacity-1-3/book?utm_source=audacity.sourceforge.net&utm_medium=link&utm_content=pod&utm_campaign=mdb_002840\">
+<a href=\"https://www.packtpub.com/getting-started-with-audacity-1-3/book?utm_source=audacityteam.org&utm_medium=link&utm_content=pod&utm_campaign=mdb_002840\">
 \"Getting started with Audacity 1.3\"</a> by Bethany Hiitola. PACKT operate an Open Source 
 Royalty Scheme, and every sale of the new Audacity book will directly benefit our project. 
 You can find the new book and others on our 
@@ -585,13 +585,13 @@ assistance to all who needed help. We shall miss him.</i></blockquote>
 also strongly recommended for <b>Windows Vista</b> and 
 <b>Mac OS X 10.6</b>, rather than 1.2 Stable. We ask everyone 
 to help us test 1.3.11 and 
-<a href=\"http://audacity.sourceforge.net/contact/#feedback\">
+<a href=\"http://audacityteam.org/contact/#feedback\">
 let us know</a> of any problems you find. Advanced users are 
 encouraged to test our subsequent fixes as we make them by 
 downloading our 
 <a href=\"http://audacityteam.org/wiki/index.php?title=Nightly_Builds\">
 Nightly Builds</a>. Beta releases are still ongoing at present. Please
-<a href=\"http://audacity.sourceforge.net/#announce\">
+<a href=\"http://audacityteam.org/#announce\">
 subscribe</a> to receive news of all our future releases.    
 </p>
 <p>
@@ -624,10 +624,10 @@ subscribe</a> to receive news of all our future releases.
 </div>
 </p>
 <p>See 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 Changes in Audacity 1.3.11</a> for more on 1.3.11 and the Beta series. <b>Note:</b> 
 This release does not support Windows 98 or ME, for which 1.3.7 is 
-<a href=\"http://audacity.sourceforge.net/download/beta_windows#recdown\">
+<a href=\"http://audacityteam.org/download/beta_windows#recdown\">
 still available</a>. 
 </p>
 "));
@@ -647,13 +647,13 @@ It brings us very close to our goal of a new 2.0 Release.
 <p> 1.3.10 is strongly recommended for users on Windows 
 Vista and 7, rather than 1.2.6 Stable. We ask everyone to help 
 us test 1.3.10 and  
-<a href=\"http://audacity.sourceforge.net/contact/#feedback\">
+<a href=\"http://audacityteam.org/contact/#feedback\">
 let us know</a> of any problems you find. Advanced users are 
 encouraged to test our latest fixes as we make them by 
 downloading our 
 <a href=\"http://audacityteam.org/wiki/index.php?title=Nightly_Builds\">
 Nightly Builds</a>. We hope a final 1.3.11 Beta will follow soon. Please
-<a href=\"http://audacity.sourceforge.net/#announce\">
+<a href=\"http://audacityteam.org/#announce\">
 subscribe</a> to receive news of all our releases.    
 </p>
 <p>
@@ -707,10 +707,10 @@ subscribe</a> to receive news of all our releases.
 </div>
 </p>
 <p>See 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 Changes in Audacity 1.3.10</a> for more on 1.3.10 and the Beta series. <b>Note:</b> 
 This release does not support Windows 98 or ME, for which 1.3.7 is 
-<a href=\"http://audacity.sourceforge.net/download/beta_windows#recdown\">
+<a href=\"http://audacityteam.org/download/beta_windows#recdown\">
 still available</a>. 
 </p>
 "));
@@ -748,9 +748,9 @@ mentoring, testing and administration.
 releases in the very near future so as to get maximum possible
 feedback on code stability prior to 2.0 release. Please help us 
 by trying the new Beta releases and 
-<a href=\"http://audacity.sourceforge.net/contact/#feedback\">
+<a href=\"http://audacityteam.org/contact/#feedback\">
 letting us know</a> of any problems you find. You can
-<a href=\"http://audacity.sourceforge.net/#announce\">
+<a href=\"http://audacityteam.org/#announce\">
 subscribe</a> to receive news of these releases. Advanced users 
 can also help us greatly by downloading our 
 <a href=\"http://audacityteam.org/wiki/index.php?title=Nightly_Builds\">
@@ -772,10 +772,10 @@ Nightly Builds</a> and testing our fixes as we make them.
    </ul>  
 </p>
 <p>See 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 New in Audacity 1.3.9</a> for more on 1.3.9 and the Beta series. <b>Note:</b> 
 This release does not support Windows 98 or ME, for which 1.3.7 is 
-<a href=\"http://audacity.sourceforge.net/download/beta_windows#recdown\">
+<a href=\"http://audacityteam.org/download/beta_windows#recdown\">
 still available</a>. 
 </p>
 "));
@@ -827,12 +827,12 @@ improvements, plus some bug fixes. Highlights include:
    </ul>
 </p>
 <p>See 
-<a href=\"http://audacity.sourceforge.net/download/features-1.3-a#details\">   
+<a href=\"http://audacityteam.org/download/features-1.3-a#details\">   
 New in Audacity 1.3.8</a> for more on the latest features and fixes.
 </p>
 <p>
 <b>Note:</b> This release does not support Windows 98 or ME, for which 1.3.7 is 
-<a href=\"http://audacity.sourceforge.net/download/beta_windows#recdown\">
+<a href=\"http://audacityteam.org/download/beta_windows#recdown\">
 still available</a>. 
 </p>
 "));
@@ -1358,7 +1358,7 @@ add_news_item(
 </p>
 <p>
 If you know any students who might be interested, possibly those already involved in music/audio
-research, please point them to our <a href=\"http://audacity.sourceforge.net/\">website</a> for this information.
+research, please point them to our <a href=\"http://audacityteam.org/\">website</a> for this information.
 </p>
 "));
 
@@ -1390,7 +1390,7 @@ If you are an interested student, please follow these steps:
 </p>
 <p>
 If you know any students who might be interested, possibly those already involved in music/audio
-research, please point them to our <a href=\"http://audacity.sourceforge.net/\">website</a> for this information.
+research, please point them to our <a href=\"http://audacityteam.org/\">website</a> for this information.
 </p>
 "));
 
@@ -1612,7 +1612,7 @@ add_news_item(
 		  <img src="../images/Audacity Store_banner_50pct.jpg" alt="Audacity Store"></img>
 		</a>
 	</p>
-	<p><a href="http://audacity.sourceforge.net/community/donate">Learn more about how Audacity raises money...
+	<p><a href="http://audacityteam.org/community/donate">Learn more about how Audacity raises money...
 		</a>
 	</p>
 	<h3>New Releases on the Way</h3>

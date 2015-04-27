@@ -123,12 +123,12 @@
   <h3 id="announce"><?=_("Get Notified of New Versions")?></h3>
   <p>
   <input type="hidden" name="list" value="audacity-announce">
-  <input type="hidden" name="url" value="http://audacity.sourceforge.net/list/subscribed.php">
-  <input type="hidden" name="emailconfirmurl" value="http://audacity.sourceforge.net/list/emailconfirm.php">
-  <input type="hidden" name="unsuburl" value="http://audacity.sourceforge.net/list/unsubscribed.php">
-  <input type="hidden" name="alreadyonurl" value="http://audacity.sourceforge.net/list/alreadyon.php">
-  <input type="hidden" name="notonurl" value="http://audacity.sourceforge.net/list/noton.php">
-  <input type="hidden" name="invalidurl" value="http://audacity.sourceforge.net/list/invalid.php">
+  <input type="hidden" name="url" value="http://audacityteam.org/list/subscribed.php">
+  <input type="hidden" name="emailconfirmurl" value="http://audacityteam.org/list/emailconfirm.php">
+  <input type="hidden" name="unsuburl" value="http://audacityteam.org/list/unsubscribed.php">
+  <input type="hidden" name="alreadyonurl" value="http://audacityteam.org/list/alreadyon.php">
+  <input type="hidden" name="notonurl" value="http://audacityteam.org/list/noton.php">
+  <input type="hidden" name="invalidurl" value="http://audacityteam.org/list/invalid.php">
   <input type="hidden" name="domain" value="audacityteam.org">
   <input type="hidden" name="emailit" value="1">
 

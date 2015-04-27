@@ -1,7 +1,7 @@
 
 This file contains documentation for editing and maintaining the Audacity web
 site.  Audacity is free software for sound editing and recording.  The web site
-is at <http://audacity.sourceforge.net/>.
+is at <http://audacityteam.org/>.
 
 CONTENTS:
 
@@ -96,5 +96,5 @@ CONTENTS:
 5. UPLOADING CHANGES
 
    See
-   http://wiki.audacityteam.org/wiki/Editing_audacity.sourceforge.net
+   http://wiki.audacityteam.org/wiki/Editing_audacityteam.org
 

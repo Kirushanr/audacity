@@ -68,7 +68,7 @@ echo _('Please note that we cannot accept other forms of payment such as checks 
 </p>
 
 <p>
-<?=_('These are all things that help us provide Audacity for free and continue to make it better. The Audacity Team is completely committed to keeping Audacity free and open source. We made that commitment in <a href="http://audacity.sourceforge.net/about/license">licensing Audacity under the GNU General Public License</a>.')?>
+<?=_('These are all things that help us provide Audacity for free and continue to make it better. The Audacity Team is completely committed to keeping Audacity free and open source. We made that commitment in <a href="http://audacityteam.org/about/license">licensing Audacity under the GNU General Public License</a>.')?>
 </p>
 
 <h2><?=_('Other Ways to Contribute')?></h2>
