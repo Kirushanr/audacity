@@ -65,7 +65,7 @@ echo _('<h4 >Legal Requirements</h4>
 <p>You <b>must</b> include the following to comply with version 2 or later of the <a href="http://www.gnu.org/licenses/licenses.html#GPL">GPL</a>:
   <ol>
     <li>a verbatim copy of the <a href="http://www.gnu.org/licenses/licenses.html#GPL">GPL</a> and </li>
-    <li>the <a href="http://audacity.sourceforge.net/download/source">Audacity source code</a> (or if you are distributing a modified version of Audacity, that modified code). Failing that, you must include a written offer to supply the code.</li>
+    <li>the <a href="http://audacityteam.org/download/source">Audacity source code</a> (or if you are distributing a modified version of Audacity, that modified code). Failing that, you must include a written offer to supply the code.</li>
   </ol>
 </p>');
 
@@ -75,7 +75,7 @@ echo _('<p>Additionally, the name <b>Audacity</b>&reg; is a <b>registered tradem
 
 echo _('<h4 >Updating and Documenting Audacity</h4>
 
-<p>We would appreciate your linking to our web site: <a href="http://audacity.sourceforge.net">http://audacity.sourceforge.net</a> so your users can download updated versions of Audacity when released. Also, please subscribe to the notifications list at the bottom of <a href="http://audacity.sourceforge.net">http://audacity.sourceforge.net</a> to ensure you receive advice of and can distribute the latest version of Audacity.</p>');
+<p>We would appreciate your linking to our web site: <a href="http://audacityteam.org">http://audacityteam.org</a> so your users can download updated versions of Audacity when released. Also, please subscribe to the notifications list at the bottom of <a href="http://audacityteam.org">http://audacityteam.org</a> to ensure you receive advice of and can distribute the latest version of Audacity.</p>');
 
 echo _('<p>If you bundle the .exe or .dmg Audacity installers, the Audacity <a href="http://manual.audacityteam.org/help/manual/">Manual</a> is included. If you provide the Audacity zip file or source tarball, please consider including the <a href="http://manual.audacityteam.org/help/manual/man/unzipping_the_manual.html">standalone Manual</a> with your distribution to reduce the number of queries we receive.');?>
 
@@ -104,7 +104,7 @@ echo _('<h4>For vendors selling a hardware product, with Audacity included:</h4>
 
 <?php
 echo _('<li>Please test your device with Audacity thoroughly. If there are any specific configuration instructions needed to make your device work with Audacity, please ensure these are included with the device.</li>
-        <li>Please note that we cannot help your customers with problems specific to your device - these must be dealt with by your own qualified staff. Users needing support with Audacity itself can find assistance at <a href="http://audacity.sourceforge.net/contact/">http://audacity.sourceforge.net/contact/</a>.</li>
+        <li>Please note that we cannot help your customers with problems specific to your device - these must be dealt with by your own qualified staff. Users needing support with Audacity itself can find assistance at <a href="http://audacityteam.org/contact/">http://audacityteam.org/contact/</a>.</li>
   </ol>
 </p>');
 

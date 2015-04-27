@@ -49,7 +49,7 @@ printf('<p>%s</p>', _('In Lisp (and therefore Nyquist), everything is an S-Expre
 // wouldn't make any sense if the snippets were translated, so they aren't
 // translatable. The snag is that what is left behind isn't very readable, so
 // you might find looking at the final web page
-// (// http://audacity.sourceforge.net/help/nyquist) helpful.
+// (// http://audacityteam.org/help/nyquist) helpful.
 printf(_('%sLet\'s break down this example.  The outermost S-expression has three members.  The first one, %s, is the name of the function (it stands for set-field).  %s is used to assign a value to a variable.  (There are other similar functions, like %s and %s, but %s is the most powerful, so it\'s the one we\'ll use in our examples.) After %s comes %s, which is the name of the variable we\'re going to set.  Next comes the value to assign to this variable, which in this case is another S-expression.%s'), 
 '<p>', '<code>setf</code>', '<code>setf</code>', '<code>set</code>',
 '<code>setq</code>', '<code>setf</code>', '<code>setf</code>',

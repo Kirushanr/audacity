@@ -11,7 +11,7 @@ function Top($title)
 	print "<body bgcolor=\"#ffffff\">\n";
 
 	print "<center>\n";
-	print "<a href=\"http://audacity.sourceforge.net\">\n";
+	print "<a href=\"http://audacityteam.org\">\n";
 	print "<img src=\"../images/Audacity-logo-r_50pct.jpg\" border=\"0\">\n";
 	print "</a>\n";
 

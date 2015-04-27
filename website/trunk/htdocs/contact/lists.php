@@ -43,7 +43,7 @@
 
 <dt id="quality">audacity-quality</dt>
   <dd>
-    <p><?=_('For identification, characterization, and prioritization of bugs and user-facing issues.')?> <?=$subscriberOnlyStr?> <?=_('You can write to <a href="http://audacity.sourceforge.net/contact/#feedback">our feedback address</a> to make a report of a specific bug without subscribing to this list.')?>  </p>
+    <p><?=_('For identification, characterization, and prioritization of bugs and user-facing issues.')?> <?=$subscriberOnlyStr?> <?=_('You can write to <a href="http://audacityteam.org/contact/#feedback">our feedback address</a> to make a report of a specific bug without subscribing to this list.')?>  </p>
     <p><a href="http://lists.sourceforge.net/lists/listinfo/audacity-quality"><?php printf($archiveStr, "audacity-quality")?></a>
 </p> 
   </dd>
