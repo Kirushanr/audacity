@@ -70,8 +70,7 @@ function localization_setup() {
   if ($available_locales[$lang]) {
     // Set the locale.
     $locale = $available_locales[$lang][0];
-    setlocale(LC_ALL,  $locale);
-
+    if (!setlocale(LC_ALL,$locale.'.utf8')) setlocale(LC_ALL,$locale);
     // Find the locale directory.
     $path_parts = pathinfo(__FILE__);
     $this_dir = $path_parts["dirname"];

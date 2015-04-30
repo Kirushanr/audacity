@@ -16,6 +16,7 @@
   <meta name="keywords" content="Audacity audio software recording editing sounds">
   <link rel="shortcut icon" href="<?=$sitePath?>/favicon.ico">
   <link rel="stylesheet" href="<?=$sitePath?>/style.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google+ : This part needs to be within <head>. The badge is shown in the footer. -->
    <link href="https://plus.google.com/108226440145001840649" rel="Audacity Team" />
