@@ -24,34 +24,43 @@
 </head>
 <body>
 <p><a class="skip" href="#content"><?=_("Jump to page content")?></a></p>
-
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 <!-- Google Custom Search Engine -->
-   <!-- search box code -->
-      <form action="http://www.google.com" id="cse-search-box" target="blank">
-         <table border="0" bgcolor="#ffffff" align="right">
-          <tr><td>
-            <div>
-               <input type="hidden" name="cx" value="partner-pub-2386514291404644:6498816767" />
-               <input type="hidden" name="ie" value="UTF-8" />
-               <input type="text" name="q" size="45" />
-               <input type="submit" name="sa" value="Search" />
-            </div>
+<!-- search box code -->
+   <form action="http://www.google.com" id="cse-search-box" target="blank">
+      <table border="0" bgcolor="#ffffff" align="right">
+
+      <tr><td>
+           <div class="g-follow" data-href="https://plus.google.com/u/0/108226440145001840649" data-height="24" data-rel="author"></div>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>
+         <div>
+
+            <input type="hidden" name="cx" value="partner-pub-2386514291404644:6498816767" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="text" name="q" size="45" />
+            <input type="submit" name="sa" value="Search" />
+         </div>
+       </td></tr>
+       <tr>
+          <td align="center">
+              <font size="-1"><i>Follow Audacity</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+          </td>
+          <td align="center">
+              <font size="-1"><i>Search Audacity sites and other selected sites.</i></font>
           </td></tr>
-          <tr><td align="center">
-             <font size="-1"><i>Search Audacity sites and other selected sites.</i></font>
-          </td></tr>
-         </table>
-      </form>
-      <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-   <!-- end search box code -->
-   <!-- /* Vaughan, 2013-03-22: This optional code from Google is causing display problems against the supplied "search box code" above, 
+      </table>
+   </form>
+   <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+<!-- end search box code -->
+   <!-- /* Vaughan, 2013-03-22: This optional code from Google is causing display problems against the supplied "search box code" above,
       that's modified from Google-supplied, to be top-right on our site. Popular queries seem to work, regardless. Revisit later. */
          popular queries code
             <script type="text/javascript" src="http://www.google.com/cse/query_renderer.js"></script>
             <div id="queries"></div>
-            <script src="http://www.google.com/cse/api/partner-pub-2386514291404644/cse/6498816767/queries/js?oe=UTF-8&amp;callback=(new+PopularQueryRenderer(document.getElementById(%22queries%22))).render"></script>     
-        end popular queries code 
-   --> 
+            <script src="http://www.google.com/cse/api/partner-pub-2386514291404644/cse/6498816767/queries/js?oe=UTF-8&amp;callback=(new+PopularQueryRenderer(document.getElementById(%22queries%22))).render"></script>
+        end popular queries code
+   -->
 <!-- end Google Custom Search Engine -->
 
 <?php
@@ -162,12 +171,12 @@
 
   <div id="adsense" style="border:2px solid black">
    <?php
-   /* 4/30/2007: Ross Turk of SourceForge says please just direct all revenue to 
-      Audacity for one month, due to error I made because of their documentation. 
-      6/1/2007: The above is the Sourceforge code (http://downloads.sourceforge.net/sitedocs/afc_setup.pdf). 
-      This commented out stuff is the code that puts up a very similar type of ad unit, 
+   /* 4/30/2007: Ross Turk of SourceForge says please just direct all revenue to
+      Audacity for one month, due to error I made because of their documentation.
+      6/1/2007: The above is the Sourceforge code (http://downloads.sourceforge.net/sitedocs/afc_setup.pdf).
+      This commented out stuff is the code that puts up a very similar type of ad unit,
       in case we ever need it again.
-      6/3/2007: Something's wrong with their script, so we've plummeted from ~85k pageviews per day 
+      6/3/2007: Something's wrong with their script, so we've plummeted from ~85k pageviews per day
       to ~35. Revert to commenting out the SourceForge scripts and doing the Google script.
       - Vaughan
 
@@ -191,7 +200,7 @@
    <script type="text/javascript"
      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
    </script>
-   
+
    <center>
       <a href="/contact/privacy#advertising"><font size="-2"><?=_("Advertisements Policy")?></font></a>
    </center>
