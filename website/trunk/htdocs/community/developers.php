@@ -22,7 +22,7 @@
 <p><?=_('You can get the latest Audacity code from our <a href="http://github.com/audacity/audacity">Git repository</a>.')?>
 
 <ul>
-  <li><p><?=_('Type this at the command line to make a local copy of the source code repositroy from GitHub:')?></p>
+  <li><p><?=_('Type this at the command line to make a local copy of the source code repository from GitHub:')?></p>
   <p><kbd>git clone http://github.com/audacity/audacity</kbd></p>
 </ul>
 </p>
