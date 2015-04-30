@@ -18,23 +18,18 @@
 <h3><?=_('Mailing Lists')?></h3>
 <p><?=_('Join the <a href="http://lists.sourceforge.net/lists/listinfo/audacity-devel">audacity-devel</a> mailing list to discuss current and future development, or to get help modifying the Audacity source code.')?></p>
 
-<h3 id="svn"><?=_('SVN')?></h3>
-<p><?=_('You can get the latest Audacity code from our <a href="http://code.google.com/p/audacity/source/browse/audacity-src/trunk">SVN repository</a>.')?>
+<h3 id="git"><?=_('Git')?></h3>
+<p><?=_('You can get the latest Audacity code from our <a href="http://github.com/audacity/audacity">Git repository</a>.')?>
 
 <ul>
-  <li><p><?=_('Type this at the command line to check out the latest source code from SVN:')?></p>
-  <p><kbd>svn checkout http://audacity.googlecode.com/svn/audacity-src/trunk/ audacity-read-only</kbd></p>
+  <li><p><?=_('Type this at the command line to make a local copy of the source code repositroy from GitHub:')?></p>
+  <p><kbd>git clone http://github.com/audacity/audacity</kbd></p>
 </ul>
 </p>
 
-<p><?php printf(_('You can also check out a specific <a href="%s">tagged release</a> from SVN.'), "http://code.google.com/p/audacity/source/browse/#svn%2Faudacity-src%2Ftags")?>
-<ul> 
-  <li><p><?=_('Use the following syntax at the command line to check out a specific tagged release from SVN, for example:')?></p>
-  <p><kbd>svn checkout http://audacity.googlecode.com/svn/audacity-src/tags/Audacity_2_0_3 audacity-read-only</kbd></p>
-</ul>
+<p><?php printf(_('You can also look at work in progress online at http://github.com/audacity/audacity/network")?>
 </p>
 
-<p><?=_('The SVN repository may also be accessed using GUI and IDE <a href="http://wiki.audacityteam.org/wiki/SVN_Clients">clients or plug-ins</a>. If using GUI or IDE tools, please use the commands indicated in the tool\'s documentation.')?></p>
 
 <h3><?=_("Compiling Audacity")?></h3>
 <p><? printf('<ul><li>%s</li>',
