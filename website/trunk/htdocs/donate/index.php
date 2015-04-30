@@ -56,10 +56,6 @@ echo _('Please note that we cannot accept other forms of payment such as checks 
 </p>
 
 <p>
-<?=_('As of March 2007, <a href="http://sourceforge.net/">SourceForge.net</a>, which hosts the Audacity site and downloads, is allowing us to also post advertisements, in an innovative program whereby we split the revenues. Thank you, <a href="http://sourceforge.net/">SourceForge.net</a>!')?>
-</p>
-
-<p>
 <?=_('Income to Audacity is not distributed among previous contributors to Audacity. There are too many people and it would be difficult to do so fairly. Also, nobody contributed code to Audacity expecting money in return. Audacity is developed by volunteers, working in our spare time. Audacity is not shareware, and we do not expect to make any money from it.')?>
 </p>
 
