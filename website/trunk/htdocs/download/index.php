@@ -92,7 +92,6 @@
   <ul>
     <li><p><?=_("For users of <b>Windows 98 and ME</b>, a legacy 2.0.0 version of Audacity is available on the <a href=\"legacy_windows\">Legacy Windows downloads page")?></a>.</p></li>
     <li><p><?=_("For users of <b>Mac OS 9</b> and <b>Mac OS 10.0 through 10.3</b>, legacy versions of Audacity are available on the <a href=\"legacy_mac\">Legacy Mac downloads page")?></a>.</p></li>
-    <li><p><?=_('<a href="http://sourceforge.net/projects/audacity/files/">all previous versions of Audacity</a>')?></p></li>
   </ul>
 
   <h3><?=_("More Information")?></h3>
