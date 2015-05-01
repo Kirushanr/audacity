@@ -42,9 +42,6 @@
        </td></tr>
        <tr>
           <td align="center">
-              <font size="-1"><i>Follow Audacity</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
-          </td>
-          <td align="center">
               <font size="-1"><i>Search Audacity sites and other selected sites.</i></font>
           </td></tr>
       </table>
