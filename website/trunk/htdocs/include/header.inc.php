@@ -30,9 +30,7 @@
    <form action="http://www.google.com" id="cse-search-box" target="blank">
       <table border="0" bgcolor="#ffffff" align="right">
 
-      <tr><td>
-           <div class="g-follow" data-href="https://plus.google.com/u/0/108226440145001840649" data-height="24" data-rel="author"></div>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <tr>
       <td>
          <div>
 
