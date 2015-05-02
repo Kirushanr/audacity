@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  * This file contains code to set up and use the gettext-based localization
  * system.
