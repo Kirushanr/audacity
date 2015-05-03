@@ -90,7 +90,7 @@ application in Finder, choose "Open", then in the dialog box that appears, choos
 </h4>
 <ul>
   <li>
-       <?php printf(_('<a href="%s">SourceForge</a> hosts the current Audacity version and all previous versions. Click on the required folder under "Name" to find the version you require.'), "http://sourceforge.net/project/showfiles.php?group_id=6235")?>
+       <?php printf(_('<a href="%s">OldFoss</a> hosts the current Audacity version and all previous versions.'), "http://www.oldfoss.com/Audacity.html")?>
       </li>
       <li>
         <?php printf(_('<a href="%s">Google Code</a> hosts selected previous versions up to and including Audacity 2.0.5.'), "https://code.google.com/p/audacity/downloads/list?can=1")?>

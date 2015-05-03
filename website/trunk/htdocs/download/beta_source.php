@@ -31,7 +31,7 @@
 <?php printf(_('This is a full source tarball, useful for Windows and Mac machines which may lack the necessary dependencies to compile Audacity.'))?></p></li>
 <li><p><?php printf(_('<a href="%s">Latest SVN development code</a>, incorporating changes since the release tarball.'), "../community/developers#svn")?></p></li>
 <li><p><?php printf(_('If you have trouble with your download, or need an older version of Audacity, try our alternate download links:')) ?></p>
-   <ul><li><?php printf(_('<a href="%s">SourceForge</a> (older versions can be viewed by clicking to enter the required folder under "Name")'), "http://sourceforge.net/project/showfiles.php?group_id=6235")?></li>
+   <ul><li><?php printf(_('<a href="%s">OldFoss</a> (older versions can be viewed by clicking to enter the required folder under "Name")'), "http://www.oldfoss.com/Audacity.html")?></li>
        <li><?php printf(_('<a href="%s">Google Code</a> (click on the headings to sort the list)'), "http://code.google.com/p/audacity/downloads/list")?></li>
    </ul>
 </li>
