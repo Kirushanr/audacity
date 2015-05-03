@@ -81,7 +81,7 @@
 </h4>
 <ul>
   <li>
-       <?php printf(_('<a href="%s">SourceForge</a> hosts the current Audacity version and all previous versions. Click on the current version folder to find the version you require.'), "https://sourceforge.net/projects/audacity/files/audacity/")?>
+       <?php printf(_('<a href="%s">OldFoss</a> hosts the current Audacity version and all previous versions.'), "http://www.oldfoss.com/Audacity.html")?>
       </li>
       <li>
         <?php printf(_('<a href="%s">Google Code</a> hosts selected previous versions up to and including Audacity 2.0.5.'), "https://code.google.com/p/audacity/downloads/list?can=1")?>
