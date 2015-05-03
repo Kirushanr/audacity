@@ -52,7 +52,7 @@
   <li>
     <p><?php printf(_('If you have trouble with your download, or need an older version of Audacity, try:')) ?></p>
     <ul>
-      <li><?php printf(_('<a href="%s">OldFOss</a>: View older versions by clicking to enter the required folder under "Version".'), "http://www.oldfoss.com/Audacity.html")?></li>
+      <li><?php printf(_('<a href="%s">OldFoss</a>: View older versions by clicking to enter the required folder under "Version".'), "http://www.oldfoss.com/Audacity.html")?></li>
       <li><?php printf(_('<a href="%s">Google Code</a>: Click on the headings to sort the list.'), "http://code.google.com/p/audacity/downloads/list")?></li>
     </ul>
   </li>
