@@ -5,26 +5,8 @@
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
-class NewsItem {
-  var $id;
-  var $date;
-  var $title;
-  var $body;
 
-  // Constructor.
-  function NewsItem($date, $title, $body) {
-    $this->date = $date;
-    $this->title = $title;
-    $this->body = $body;
-  }
-
-  // Returns the date, in the preferred format for the current locale.
-  function dateStr() {
-    // i18n-hint: Controls how dates are formatted.
-    // See http://www.php.net/manual/function.strftime.php for details.
-    return locale_to_unicode(strftime(_("%B %d, %Y"), $this->date));
-  }
-}
+require_once(realpath(dirname(__FILE__))."/newsitem.class.inc.php");
 
 $news_items = array();
 function add_news_item($dateStr, $id, $title, $body) {
@@ -33,6 +15,7 @@ function add_news_item($dateStr, $id, $title, $body) {
   $key = strftime("%Y-%m-%d", $date)."/".$id;
   $news_items[$key] = new NewsItem($date, $title, $body);
 }
+
 function most_recent_news_item() {
 }
 
