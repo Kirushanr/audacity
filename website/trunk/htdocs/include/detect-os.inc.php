@@ -8,9 +8,9 @@
 // Guess which download to offer, based on the user's OS.
 function which_download() {
   $useragent = $_SERVER["HTTP_USER_AGENT"];
-  if (eregi("Mac", $useragent))
+  if (preg_match("/Mac/i", $useragent))
     return "mac";
-  else if (eregi("X11", $useragent))
+  else if (preg_match("/X11/i", $useragent))
     return "source";
   else
     return "windows";
