@@ -26,7 +26,7 @@
   <p>
     <?php
       $query = $_SERVER["QUERY_STRING"];
-      $query = ereg_replace("&?lang=[^&]*", "", $query);
+      $query = preg_replace("/&?lang=[^&]*/", "", $query);
       if ($query != "")
         $query = $query."&";
       $query = htmlspecialchars($query);
